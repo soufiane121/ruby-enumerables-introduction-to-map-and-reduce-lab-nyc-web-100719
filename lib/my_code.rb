@@ -21,7 +21,11 @@ arr.map {|ele| ele *ele }
 end
 
 
+<<<<<<< HEAD
 def reduce_to_total(arr,start_point=0)
+=======
+def reduce_to_tatal(arr,start_point=0)
+>>>>>>> 20db234505419a1169972e4db17cd7331aa05d2e
 arr.reduce(start_point) do |acu, ele|
   acu+=ele
 acu

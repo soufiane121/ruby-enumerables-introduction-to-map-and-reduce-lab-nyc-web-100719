@@ -30,7 +30,7 @@ end
 end
 
 def reduce_to_all_true(arr)
-arr.any? {|ele| ele || true }
+arr.all? {|ele| ele || true }
 end
 
 

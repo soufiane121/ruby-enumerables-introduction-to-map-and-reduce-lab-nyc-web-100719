@@ -34,7 +34,7 @@ arr.all? {|ele| ele && true}
 end
 
 def reduce_to_any_true(arr)
-
+arr.any? {|ele| ele || true }
 end
 
 

@@ -29,6 +29,9 @@ acu
 end
 end
 
+def reduce_to_all(arr)
+
+end
 
 
 

@@ -33,6 +33,10 @@ def reduce_to_all_true(arr)
 arr.all? {|ele| ele && true}
 end
 
+def reduce_to_any_true(arr)
+
+end
+
 
 
 

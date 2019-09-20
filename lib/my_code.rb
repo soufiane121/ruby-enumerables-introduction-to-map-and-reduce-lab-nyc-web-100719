@@ -29,7 +29,7 @@ acu
 end
 end
 
-def reduce_to_all(arr)
+def reduce_to_all_true(arr)
 arr.all? {|ele| ele || true }
 end
 
